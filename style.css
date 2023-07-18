@@ -52,6 +52,7 @@
     align-items: center;
     font-family: var(--font-family);
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .menus>li button {
@@ -59,9 +60,14 @@
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
     border: none;
+    cursor: pointer;
 }
-
+.menu-btn{
+    padding-right: 5px;
+    padding-left: 5px;
+}
 /* Banner section */
+
 .banner-container {
     display: flex;
     justify-content: center;
@@ -72,7 +78,7 @@
 .banner-content {
     width: 50%;
     text-align: center;
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     height: 400px;
     width: 50%;
 }
@@ -80,7 +86,7 @@
 #banner-description {
     color: black;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     padding-top: 50px;
 }
@@ -94,10 +100,28 @@
 .banner-list li {
     list-style: none;
     padding: 7px;
+    font-family: var(--font-family);
 }
 
 .banner-btn {
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn1{
+    padding: 15px; 
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+}
+.btn2{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4EC5F7;
+    color: white;
 }
 
 .banner-image {
