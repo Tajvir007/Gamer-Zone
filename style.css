@@ -72,17 +72,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 500px; */
+    height: 500px;
+    /* border: 2px solid tomato; */
 }
 
 .banner-content {
     width: 50%;
     text-align: center;
     /* border: 1px solid saddlebrown; */
-    height: 400px;
+    height: 500px;
     width: 50%;
+    background-image: url("images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
-
 #banner-description {
     color: black;
     font-family: var(--font-family);
@@ -130,6 +131,7 @@
 }
 
 .banner-image img {
-    height: 500px;
+    margin-top: 55px;
+    height: 400px;
     padding-top: 50px;
 }
