@@ -407,9 +407,7 @@ footer {
     .instant-play-container{
         flex-direction: column;
     }
-    .instant-play-image{
-        /* padding-left: -10px; */
-    }
+    
     .game-zone-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
