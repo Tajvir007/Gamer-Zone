@@ -191,3 +191,63 @@
 
 /* Instant play section */
 
+.instant-play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.instant-play-content > h1{
+   /* display: block;
+   justify-content: center;
+   align-items: center; */
+}
+
+.instant-play-content p {
+    font-family: var(--font-family);
+    color: #534C64;
+    width: 300px;
+    height: 150px;
+    text-align: end;
+}
+
+.instant-play-image1 {
+    width: 400px;
+    height: 400px;
+}
+
+.instant-play-image2 {
+    width: 150px;
+    height: 165px;
+    border: 2px solid white;
+    transform: translateX(-480px) translateY(50px);
+
+}
+
+/* Game zone section */
+
+.game-zone-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid tan; */
+    padding: 0px 200px;
+}
+
+.games {
+    /* padding: 10px; */
+    margin: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid black; */
+    border-radius: 100px;
+}
+
+.game-zone-icon {
+    width: 50px;
+    height: 50px;
+}
