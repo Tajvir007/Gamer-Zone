@@ -62,10 +62,12 @@
     border: none;
     cursor: pointer;
 }
-.menu-btn{
+
+.menu-btn {
     padding-right: 5px;
     padding-left: 5px;
 }
+
 /* Banner section */
 
 .banner-container {
@@ -84,6 +86,7 @@
     width: 50%;
     background-image: url("images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
+
 #banner-description {
     color: black;
     font-family: var(--font-family);
@@ -110,14 +113,16 @@
     justify-content: center;
     gap: 15px;
 }
-.btn1{
-    padding: 15px; 
+
+.btn1 {
+    padding: 15px;
     border-radius: 20px;
     border: none;
     color: white;
     background-color: var(--primary-color);
 }
-.btn2{
+
+.btn2 {
     padding: 15px;
     border-radius: 20px;
     border: none;
@@ -135,3 +140,54 @@
     height: 400px;
     padding-top: 50px;
 }
+
+/* Online game section */
+
+.online-game-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.online-game-title,
+.online-game-description {
+    font-family: var(--font-family);
+}
+
+.online-game-description {
+    color: #534C64;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.card {
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+}
+
+.img-style {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.card-description {
+    font-family: var(--font-family);
+    color: #534C64;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+}
+
+/* Instant play section */
+
